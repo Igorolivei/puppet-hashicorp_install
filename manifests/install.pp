@@ -18,8 +18,8 @@ class hashicorp_install::install {
       $os_arch = 'arm'
     }
 
-    '386': {
-      $os_arch = 'amd64'
+    'i386': {
+      $os_arch = '386'
     }
 
     default: {
