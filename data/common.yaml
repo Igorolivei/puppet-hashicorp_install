@@ -1,0 +1,8 @@
+---
+hashicorp_install::packages:
+  consul: 1.8.3
+  nomad: 0.12.3
+  packer: 1.6.1
+  terraform: 0.13.1
+  vagrant: 2.2.10
+  vault: 1.5.2
