@@ -10,7 +10,7 @@ class hashicorp_install::install {
   }
 
   case $facts['os']['architecture'] {
-    'amd64': {
+    'amd64', 'x86_64': {
       $os_arch = 'amd64'
     }
 
