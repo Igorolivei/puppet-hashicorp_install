@@ -1,0 +1,17 @@
+name: Publish package
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: action-forge-publish
+        uses: barnumbirr/action-forge-publish@v2.5.0
+        with:
+          FORGE_API_KEY: ${{ secrets.FORGE_API_KEY }}
