@@ -1,0 +1,23 @@
+name: Validate Puppet
+
+on: push
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: action-pdk-validate
+        uses: puppets-epic-show-theatre/action-pdk-validate@v1.0.0
+
+  tests:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: action-pdk-test-unit
+        if: ${{ hashFiles(spec/) }}
+        uses: puppets-epic-show-theatre/action-pdk-test-unit@v1.1.0
