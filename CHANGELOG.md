@@ -2,13 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## Release 1.0.0
+## Release 1.0.2
 
 **Features**
 
-First module version. Currently it only installs the Hashicorp tools.
-
 **Bugfixes**
+
+Fix bug on x86_64 OS architecture.
 
 **Known Issues**
 
@@ -19,5 +19,15 @@ First module version. Currently it only installs the Hashicorp tools.
 **Bugfixes**
 
 Fix bug on i386 OS architecture.
+
+**Known Issues**
+
+## Release 1.0.0
+
+**Features**
+
+First module version. Currently it only installs the Hashicorp tools.
+
+**Bugfixes**
 
 **Known Issues**
