@@ -71,3 +71,4 @@ OS architecture.
 ## Release Notes/Contributors/Etc.
 
 - Author: Igor Oliveira (igor.bezerra96@gmail.com)
+- Contributor: Cliffano Subagio (@cliffano)
